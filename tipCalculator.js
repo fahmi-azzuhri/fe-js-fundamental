@@ -11,3 +11,14 @@ if (bill >= 50 && bill <= 300) {
     `the bill was ${bill}, the tip was ${tip2},and total value ${bill + tip2}`
   );
 }
+
+//convert to ternary
+
+result =
+  bill >= 50 && bill <= 300
+    ? `the bill was ${bill}, the tip was ${tip},and total value ${bill + tip}`
+    : `the bill was ${bill}, the tip was ${tip2},and total value ${
+        bill + tip2
+      }`;
+
+console.log(result);
